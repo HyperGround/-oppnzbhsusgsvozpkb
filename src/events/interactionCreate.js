@@ -110,7 +110,7 @@ module.exports = {
         if (client.config.CHANNELS.COMMANDS_LOGS && set.COMMANDS_LOGS) await client.channels.cache.get(client.config.CHANNELS.COMMANDS_LOGS).send({
           embeds: [new EmbedBuilder()
             .setColor(client.embed.color)
-            .setAuthor({ name: "Slash Command", iconURL: `https://cdn.discordapp.com/emojis/942758826904551464.webp?size=28&quality=lossless` })
+            .setAuthor({ name: "Slash Command", iconURL: `https://cdn.discordapp.com/attachments/1203433990913134712/1203434019795247124/942758826904551464.webp?ex=65d11445&is=65be9f45&hm=efd621af32711e913be0ad22f02c24f88b40c46e30148895b66c9fcb1d3bda7e&` })
             .setThumbnail(interaction.guild.iconURL({ dynamic: true }))
             .addFields([
               { name: "**Author**", value: `\`\`\`yml\n${interaction.user.tag} [${interaction.user.id}]\`\`\`` },
