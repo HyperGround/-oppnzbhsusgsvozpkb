@@ -2,9 +2,9 @@ const boxConsole = require('box-console');
 const set = require(`${process.cwd()}/Assets/Config/settings`)
 module.exports = {
   async execute(client) {
-    let aio = `Subscribe To Anxious Planet`;
-    let aio_server = `Support:- ${`https://discord.com/invite/FRfDFTGtk4`.brightGreen}`
-    let Uo = `Coded By ${`Ash Dev`.brightCyan.bold}`;
+    let aio = `Support Hp Bot Server`;
+    let aio_server = `Support:- ${`https://discord.com/invite/rYHH2Tjz5e`.brightGreen}`
+    let Uo = `Uptimer By ${`Sixur Dev`.brightCyan.bold}`;
     console.clear()
     boxConsole([aio, aio_server, Uo]);
     // Console Logger
