@@ -3,7 +3,7 @@ const urlsConfig = require(`${process.cwd()}/src/database/UrlsConfig`),
   validUrl = require("valid-url");
 module.exports = {
   name: "moniter",
-  description: "moniter",
+  description: "HP Moniter",
   usage: "",
   category: "uptime",
   userPerms: [""],
