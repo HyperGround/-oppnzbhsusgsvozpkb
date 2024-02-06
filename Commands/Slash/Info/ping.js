@@ -3,7 +3,7 @@ const os = require('os');
 require('ms');
 module.exports = {
   name: "stats",
-  description: "UptimerX Stats",
+  description: "HP Uptimer Stats",
   usage: "",
   category: "info",
   userPerms: [""],
