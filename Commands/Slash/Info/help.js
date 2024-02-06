@@ -2,7 +2,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ApplicationCommandType, B
 
 module.exports = {
 	name: 'help',
-	description: "UptimerX Menu Page",
+	description: "HP Uptimer Menu Page",
   usage: "",
   category: "",
 	userPerms: [''],
@@ -16,10 +16,10 @@ module.exports = {
 	type: ApplicationCommandType.ChatInput,
 	run: async (client, interaction) => {
     try{ 
-		const inviteUrl = `https://discord.gg/FVcQm9Znrn`;
+		const inviteUrl = `https://discord.com/invite/rYHH2Tjz5e`;
 		const embed = new EmbedBuilder()
-		.setTitle(' UptimerX Menu')
-		.setDescription(`UptimerX Is A Bot That Makes Your Discord Bot 24/7 Stable By Add It's Webview Url`)
+		.setTitle(' HP Uptimer Menu')
+		.setDescription(`HP Uptimer Is A Bot That Makes Your Discord Bot 24/7 Stable By Add It's Webview Url`)
 		.setColor('#03fcdb')
 		.setTimestamp()
     .setImage('https://media.discordapp.net/attachments/1150034335022469150/1161610125488959549/Uptime_1200_363_px.png?ex=6538ecbb&is=652677bb&hm=3917f6e33487317ca945433370c0183dd031aa94532b6a343e08f677f20e619f&')
