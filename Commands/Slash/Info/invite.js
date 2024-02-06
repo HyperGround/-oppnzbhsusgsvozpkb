@@ -2,7 +2,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ApplicationCommandType, B
 
 module.exports = {
 	name: 'invite',
-	description: "Invite UptimerX",
+	description: "Invite HP Uptimer",
   usage: "",
   category: "",
 	userPerms: [''],
@@ -19,7 +19,7 @@ module.exports = {
 		const inviteUrl = `https://discord.com/api/oauth2/authorize?client_id=${process.env.CLIENT_ID || client.config.CLIENT.ID}&permissions=8&scope=bot%20applications.commands`;
 		const embed = new EmbedBuilder()
 		.setTitle('Invite me')
-		.setDescription(`Invite UptimerX To Your Server. [Click Here](${inviteUrl})`)
+		.setDescription(`Invite HP Uptimer To Your Server. [Click Here](${inviteUrl})`)
 		.setColor('#03fcdb')
 		.setTimestamp()
     .setImage(`https://media.discordapp.net/attachments/1150034335022469150/1161610125488959549/Uptime_1200_363_px.png?ex=6538ecbb&is=652677bb&hm=3917f6e33487317ca945433370c0183dd031aa94532b6a343e08f677f20e619f&`)
